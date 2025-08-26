@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.section{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+    
+}
+
+.nav a{
+   
+    text-decoration: none;
+     color: gray;
+}
+.nav ul{
+    text-decoration: none;
+    margin-left: 1150px;
+    margin-top:10px ;
+   
+
+}
+.nav ul :hover{
+    cursor: pointer;
+    color: white;
+}
+.searchbar input{
+    padding: 10px;
+    margin-right: 30px;
+    width: 40%;
+    align-items: center;
+}
+.searchbar{
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    margin-left: 350px;
+    gap: 5px;   
+    text-align: center;
+}
+
+.image_one{
+    border: solid 2px black;
+    align-items: center;
+    font-weight: bold;
+    width: 300px;
+   
+}
+
+.image_one p{
+ 
+  padding-bottom: 30px;
+
+  background-color: yellowgreen;
+}
+.image_two p{
+  
+   padding-bottom: 30px;
+   background-color: yellowgreen;
+}
+.image_three p{
+  
+   padding-bottom: 20px;
+   background-color: yellowgreen;
+   
+}
+
+.image_two{
+    border: solid 2px black;
+    font-weight: bold;
+     width: 300px;
+}
+.image_three{
+    border: solid 2px black;
+     font-weight: bold;
+      width: 300px;
+    
+}
+
+.About{
+    padding: 20px;
+}
+.About h1{
+       text-align: center;
+}
+.About p{
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    justify-items: center;
+    padding: 20px;
+}
